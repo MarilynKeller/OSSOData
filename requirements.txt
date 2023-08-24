@@ -1,0 +1,5 @@
+matplotlib==3.7.2
+pydicom==2.4.3
+pyglet==2.0.9
+trimesh==3.23.3
+pyrender==0.1.45
