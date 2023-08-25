@@ -1,11 +1,11 @@
 # OSSO dataset loader
 
-This code enable the loading, processing and evaluation of the OSSO dataset released as a UKBiobank dataset return (release planned for november 2023).
+This code enables the loading, processing, and evaluation of the OSSO dataset released as a UKBiobank dataset return (release planned for November 2023).
 We release, for 2400 subjects, pairs of skeleton and body meshes as well as the corresponding STAR parameters. Those meshes were generated from the subjects' DXA scans, see the [project page](https://osso.is.tue.mpg.de/) for details.
 
 This code lets you:
 - Visualize the mesh data (Requires our [UKBiobank dataset return](https://biobank.ndph.ox.ac.uk/ukb/docs.cgi?id=1))
-- Compare our meshes silhouette with the corresponding DXA silhouettes. (Requires access to UK Biobank [link](https://www.ukbiobank.ac.uk/enable-your-research))
+- Compare our mesh silhouettes with the corresponding DXA silhouettes. (Requires access to UK Biobank [link](https://www.ukbiobank.ac.uk/enable-your-research))
 - We also release the code to extract the body and skeleton silhouette from a DXA scan. 
 
 # Installation
@@ -18,14 +18,14 @@ pip install -r requirements.txt
 pip install -e . 
 ```    
 
-Finally, in config.py, set the paths to the ukbiobank dataset and the return dataset.
+Finally, in config.py, set the paths to the UK Biobank dataset and the returned dataset.
 
 
 # Demo
 
 ## Data loading
 
-Load a subject's dxa from the ukbiobank dataset: 
+Load a subject's DXA from the UK Biobank dataset: 
 ```python demos/load_dxa.py```
 
 Load the subject's 3D meshes and STAR parameters from our dataset return:
