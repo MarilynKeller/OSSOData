@@ -51,6 +51,7 @@ If you find this dataset & software useful in your research, please consider cit
   booktitle = {Proceedings IEEE/CVF Conf.~on Computer Vision and Pattern Recognition (CVPR)},
   month = jun,
   year = {2022},
+  pages = {20460--20469},
   month_numeric = {6}}
 ```
 
