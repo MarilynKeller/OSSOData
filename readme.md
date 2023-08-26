@@ -1,7 +1,7 @@
 # OSSO dataset loader
 
 This code enables the loading, processing, and evaluation of the OSSO dataset released as a UKBiobank dataset return (release planned for November 2023).
-We release, for 2400 subjects, pairs of skeleton and body meshes as well as the corresponding STAR parameters. Those meshes were generated from the subjects' DXA scans, see the [project page](https://osso.is.tue.mpg.de/) for details.
+We release, for 2400 subjects, pairs of skeleton and body meshes as well as the corresponding STAR body model parameters. The meshes are generated from the subjects' DXA scans, see the [project page](https://osso.is.tue.mpg.de/) for details.
 
 This code lets you:
 - Visualize the mesh data (Requires our [UKBiobank dataset return](https://biobank.ndph.ox.ac.uk/ukb/docs.cgi?id=1))
