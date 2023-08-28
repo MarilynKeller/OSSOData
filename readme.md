@@ -20,7 +20,7 @@ pip install -e .
 
 Finally, in config.py, set the paths to the UK Biobank dataset and the returned dataset.
 
-If you want to use the STAR parameters, you will need the body model (STAR)[https://github.com/ahmedosman/STAR].
+If you want to use the STAR parameters, you will need the body model [STAR](https://github.com/ahmedosman/STAR).
 
 
 # Demo
